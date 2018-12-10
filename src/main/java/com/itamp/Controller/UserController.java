@@ -29,7 +29,7 @@ public class UserController {
 	public String we() {
 		return "work";
 	}
-	
+	//user get details
     @RequestMapping(value="/api", method=RequestMethod.POST)
     public User use(@RequestBody User user ) {
      return service.user(user);
